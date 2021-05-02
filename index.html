@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Head -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <link rel="icon" href="logo.png">
 </head>
 <body>
+<!-- Header -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
   <div class="container-fluid">
@@ -28,8 +30,8 @@
     Actions
   </button>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-    <li><a class="dropdown-item" href="#map">Map</a></li>
-    <li><a class="dropdown-item" href="#clock">Clock</a></li>
+    <li><a class="dropdown-item" href="map.html">Map</a></li>
+    <li><a class="dropdown-item" href="clock.html">Clock</a></li>
     <li><a class="dropdown-item" href="#">Coming soon..</a></li>
   </ul>
 </div>
@@ -48,21 +50,35 @@
             An universal site with many opportunities.
         </h2>
     </header>
+<!-- Main -->
     <main>
-        <div id="map">
-            <h1>Map</h1>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1904.7867843634626!2d-96.79709834174254!3d40.82022202463115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ5JzEyLjgiTiA5NsKwNDcnNDUuNiJX!5e1!3m2!1sen!2spl!4v1619780556268!5m2!1sen!2spl" 
-            width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
         <div>
-            <h1>Clock</h1>
+        <!-- Map -->
+        <div class="card" style="width: 18rem;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3809.536418615749!2d-96.78813863318736!3d40.82086886020491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ5JzE1LjEiTiA5NsKwNDcnMTEuNyJX!5e1!3m2!1sen!2spl!4v1619947710204!5m2!1sen!2spl" 
+            width="285" height="250" style="border:10;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="card-body">
+                <h5 class="card-title">Map</h5>
+                <p>(This place is Josh' Battlefield)</p>
+                <a href="map.html" class="btn btn-primary">Map</a>
+            </div>
+        </div>
+        <!-- Clock -->
+        <div class="card" style="width: 18rem;">
             <div class="clock" id="clock"></div>
+            <div class="card-body">
+                <h5 class="card-title">Clock</h5>
+                <p>(I know that clock has already been seen, but click the button pls)</p>
+                <a href="clock.html" class="btn btn-primary">Clock</a>
+            </div>
         </div>
         <div>
             
         </div>
+    </div>
     </main>
-    <footer>
+<!-- Footer -->
+    <footer id="contacts">
         <h1>Give some idea to author <a href="https://www.facebook.com/profile.php?id=100015202036127">here</a>.</h1>
         <h1>All components are added at some time.</h1>
     </footer>
