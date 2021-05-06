@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
 body{
-    background-color: dodgerblue;
-    color: ghostwhite;
+    background-color: #292929;
+    color: #c9c9c9;
     text-align: center;
-    padding: 0%;
+    padding: 10px;
     margin: 0%;
     font-family: 'Comfortaa';
 }
 footer{
-    background-color: lightskyblue;
-    color: mediumblue;
+    background-color: #4d4d4d;
+    color: #808080;
 }
