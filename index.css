@@ -16,4 +16,8 @@ footer{
 }
 .card{
     background-color: #0f0f0f;
+    padding: 10px;
+}
+.actions{
+    display: flex;
 }
