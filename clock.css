@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
 body{
-    background-color: #292929;
-    color: #c9c9c9;
+    background-color: #020202;
+    color: #c4f8ff;
     text-align: center;
-    padding: 10px;
     margin: 0%;
     font-family: 'Comfortaa';
 }
 footer{
-    background-color: #4d4d4d;
-    color: #808080;
+    background-color: #1d1d1d;
+    color: #e0fbff;
 }
 .clock{
     font-size: 225px;
