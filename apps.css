@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
 body{
     background-color: #966450;
-    color: #413d22;
+    color: #302717;
     text-align: center;
     margin: 0%;
     font-family: 'Comfortaa';
@@ -9,4 +9,12 @@ body{
 footer{
     background-color: #532b1c;
     color: #000000;
+}
+.apps{
+    display: flex;
+}
+.card{
+    background-color: #754532;
+    color: #000000b7;
+    border: 0px;
 }
